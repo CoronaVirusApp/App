@@ -18,13 +18,26 @@ h1 {
 	color: #000;
 }
 
+.horizontal-scroll {
+	margin-top: 3vh;
+	height: 25vh;
+	overflow-x: scroll;
+	overflow-y: hidden;
+	white-space: nowrap;
+}
+
+.box::-webkit-scrollbar{
+	display: none;
+}
+
 .card1,
 .card2,
 .card3 {
-	height: 25vh;
+	height: 100%;
 	width: 80vw;
 	display: inline-block;
 	object-fit: cover;
 	border-radius: 1vh;
 	box-shadow: 0 0.5vh 2vh 0 #00000033;
+	margin-right: 5vw;
 }
