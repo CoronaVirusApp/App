@@ -20,13 +20,13 @@ h1 {
 
 .horizontal-scroll {
 	margin-top: 3vh;
-	height: 25vh;
+	height: 40vh;
 	overflow-x: scroll;
 	overflow-y: hidden;
 	white-space: nowrap;
 }
 
-.box::-webkit-scrollbar{
+.box::-webkit-scrollbar {
 	display: none;
 }
 
@@ -36,8 +36,32 @@ h1 {
 	height: 100%;
 	width: 80vw;
 	display: inline-block;
+	margin-right: 5vw;
+}
+
+.card {
 	object-fit: cover;
 	border-radius: 1vh;
 	box-shadow: 0 0.5vh 2vh 0 #00000033;
-	margin-right: 5vw;
+}
+
+h3 {
+	margin-top: 2vh;
+	font-family: 'Raleway', sans-serif;
+	font-size: 1.2vh;
+	font-weight: 700;
+	letter-spacing: 0.5px;
+	text-align: left;
+	color: #ff4a4a;
+}
+
+h2 {
+	margin-top: 0;
+	margin-right: 20vw;;
+	font-family: 'Raleway', sans-serif;
+	font-size: 2.2vh;
+	font-weight: 700;
+	letter-spacing: -0.1px;
+	text-align: left;
+	color: #000000;
 }
