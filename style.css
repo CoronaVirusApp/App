@@ -18,6 +18,13 @@ h1 {
 	color: #000;
 }
 
-.card {
-	
+.card1,
+.card2,
+.card3 {
+	height: 25vh;
+	width: 80vw;
+	display: inline-block;
+	object-fit: cover;
+	border-radius: 1vh;
+	box-shadow: 0 0.5vh 2vh 0 #00000033;
 }
