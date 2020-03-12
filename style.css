@@ -1,8 +1,8 @@
-body{
+body {
 	margin-left: 5vw;
 }
 
-.date{
+.date {
 	margin-top: 3vh;
 	font-size: 1.5vh;
 	font-family: 'Raleway', sans-serif;
@@ -10,10 +10,14 @@ body{
 	color: #5D5D5D;
 }
 
-h1{
+h1 {
 	margin-top: 2vh;
 	font-size: 4vh;
 	font-family: 'Raleway', sans-serif;
 	font-weight: 800;
 	color: #000;
+}
+
+.card {
+	
 }
